@@ -21,8 +21,7 @@ end
         dlmwrite(sprintf('./MPMOP_CMA/result/ALG/F%d.csv', func), result);
         pr_total = [pr_total; pr];
     end
-    pr2 = [pr2,pr_total(:,2)];
     dlmwrite(sprintf(['./MPMOP_CMA' ...
-        '/result/ALG/F_total.csv'], DM_str), pr_total);
+        '/result/ALG/F_total.csv']), pr_total);
 delete(gcp);
 end
