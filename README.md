@@ -1,4 +1,4 @@
-# 2024QiaoMPMOP-CMA
+# 2024MPMOP-CMA
 
 This is a source code of "Multiparty Multiobjective Optimization for Dynamic Multimodal Optimization Problems" in MATLAB.
 
